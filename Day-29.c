@@ -39,9 +39,24 @@ else{
 
 
 
+
+// 3.Input a character and check whether it is a vowel or consonant.
+
+char a;
+scanf("%c",&a);
+
+if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u' || a=='A' || a=='E' || a=='I' || a=='O' || a=='U'){
+    printf("Character is Vowel");
+}
+else{
+    printf("Character is Consonent");
+}
+    
+
     
 
 
     return 0;
 
 }
+
