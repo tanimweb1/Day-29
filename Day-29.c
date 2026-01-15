@@ -56,7 +56,27 @@ else{
     
 
 
+// 4.Input three numbers and find the largest number.
+
+int a,b,c;
+scanf("%d%d%d",&a,&b,&c);
+
+if(a>b && a>c){
+    printf("A is big");
+}
+else if(b>a && b>c){
+    printf("B is big");
+}
+else{
+    printf("C is big");
+}
+
+
+
+    
+
     return 0;
 
 }
+
 
