@@ -116,11 +116,27 @@ else{
 }
 
 
+
+
+
+
+
+// 8.Input age and check whether the person is eligible to vote.
+int age;
+scanf("%d",&age);
+if(age>=18){
+    printf("Can give vote");
+}
+else{
+    printf("Can't vote");
+}
+
     
 
     return 0;
 
 }
+
 
 
 
