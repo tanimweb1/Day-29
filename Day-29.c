@@ -73,10 +73,36 @@ else{
 
 
 
+
+
+
+
+// 5.Input marks of a student and display Grade:
+
+int marks;
+scanf("%d",&marks);
+if(marks<40){
+    printf("Fail");
+}
+else if(marks>=40 && marks<60){
+    printf("Grade is C");
+}
+else if(marks>=60 && marks<80){
+    printf("Grade is B");
+}
+
+else if(marks>=80 && marks <=100){
+    printf("Grade is A");
+}
+else {
+    printf("not a valid result");
+}
+    
     
 
     return 0;
 
 }
+
 
 
