@@ -131,11 +131,32 @@ else{
     printf("Can't vote");
 }
 
+
+
+
+
+// 10. Input a number and check whether it is divisible by 3 or 7.
+
+int num;
+scanf("%d",&num);
+if(num%3==0 && num%7==0){
+    printf("Number is divisible by 3 and 7 ");
+}
+else{
+    printf("not divisible");
+}
+
+
+
+
+
+
     
 
     return 0;
 
 }
+
 
 
 
