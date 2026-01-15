@@ -149,13 +149,32 @@ else{
 
 
 
+// 11.Input two numbers and check which one is greater or equal.
 
+int a,b;
+scanf("%d%d",&a,&b);
+if(a>b){
+    printf("A is greater than B");
+
+}
+else if(a==b){
+    printf("Both are equal");
+}
+else{
+    printf("B is greater than A");
+}
+
+
+
+
+    
 
     
 
     return 0;
 
 }
+
 
 
 
