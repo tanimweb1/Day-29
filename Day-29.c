@@ -167,6 +167,25 @@ else{
 
 
 
+
+
+     // 12.Input a character and check whether it is uppercase or lowercase.
+
+    char a;
+    scanf("%c",&a);
+
+    if(a>='a' && a<='z'){
+        printf("Lowercase");
+    }
+   else if(a>='A' && a<='Z'){
+    printf("UPPERCASE");
+   }
+   else{
+    printf("Not a valid charecter");
+   }
+
+
+
     
 
     
@@ -174,6 +193,7 @@ else{
     return 0;
 
 }
+
 
 
 
